@@ -13,12 +13,12 @@ The purpose of this project is to produce the messages to a defined kafka topic.
 * Create a kafka topic with 15 partitions
 * Configure below properties in application.properties
 
-#####Mandatory
+#### Mandatory
 
 	kafka.topic
 	kafka.camelKafkaOptions.brokers
 	
-##### Optional
+#### Optional
 	
 	kafka.camelKafkaOptions.sslTruststorePassword
 	kafka.camelKafkaOptions.sslTruststoreLocation
